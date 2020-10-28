@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ASSETS/CSS/style.css">
+        <link rel="stylesheet" href="ASSETS/CSS/style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> <!-- Insertion de la police Libre Baskerville-->
+        <script src="https://kit.fontawesome.com/fe6dad5f6a.js" crossorigin="anonymous"></script>
+                <title>Eufloria</title>
+    </head>
+    <body id="BlocHead">
+        <header>
+            <div id="header">
+                <div><i id="MenuBurger" class="fas fa-bars fa-3x"></i></div>
+                <img id="Logo" src="ASSETS/Image/LogoSiteFleur.png" alt="Logo d'une fleur avec 4 petales de couleur differente pour chaque saison"/>
+                <div><p id="p">"Profitez des fleurs de saison et de vos plantes préférées en un clic"</p></div>   
+            </div>
+        </header>
+         <!-- BLOC = NOS MAÎTRES-MOTS -->
+    <div id="block2">
+        <div id="TextBlock2">
+            <p class="MaitresMots">NOS MAÎTRES-MOTS</p>
+            <h1>Frais, local</h1>
+            <h1>et éco-responsable</h1>
+            <p class="P1_MaitresMots">Parce que chez Eufloria, la qualité des fleurs est importante. Pour cette raison, nous misons essentiellement sur les cultures locales et préparons vos bouquets avec soin, à la main, dans des emballages kraft recyclables.</p>
+        </div>
+        <div id="ImagesBlock2">
+            <div id="PotsDeFleurs">
+                <img src="ASSETS/img/VALEURS/potsdefleurs.jpg" title="Pots de fleurs" alt="Pots de fleurs"/>
+            </div>
+            <div id="Salopette">
+                <img src="ASSETS/img/VALEURS/salopette.jpg" title="fleuriste en salopette" alt="fleuriste en salopette"/>
+            </div>
+        </div>
+    </div>
+    <!-- 3 BLOCS = BOUQUETS, PLANTES, JARDIN / Laurie -->
+    <div id="ensemble"><div id="block3">
+        <div class="Bouquets">
+            <h2>Bouquets</h2>
+            <p>Découvrez nos fleurs de saison.</p>
+            <img src="ASSETS/img/BLOCS/dahlia_r.jpg" title="bouquets" alt="bouquets"/>
+            <div class="ButtonBouquets">
+                <button name="TousNosBouquets">TOUS NOS BOUQUETS</button>
+            </div>
+        </div>
+        <div class="Plantes">
+            <h2>Plantes</h2>
+            <p>Donnez vie à votre intérieur.</p>
+            <img src="ASSETS/img/BLOCS/cactees_r.jpg" title="plantes" alt="plantes"/>
+            <div class="ButtonPlantes">
+                <button name="TousNosPlantes">VOIR PLUS DE PLANTES</button>
+            </div>
+        </div>
+        <div class="Jardin">
+            <h2>Jardin</h2>
+            <p>Sortez, semez et profitez.</p>
+            <img src="ASSETS/img/BLOCS/graines_r.jpg" title="jardin" alt="jardin"/>
+            <div class="ButtonJardin">
+                <button name="ToutesNosGraines">TOUTES NOS GRAINES</button>
+            </div>
+        </div>
+    </div>
+    <div id="conteneur">
+        <!-- Bloc partenaires -->
+        <div class="partenaires">   
+            <div class="titre">Nos partenaires</div>
+            <div class="texte"> <p>Chez Eufloria, nos produits proviennent de partenaires locaux avec qui nous travaillons depuis 2 ans. Découvrez-les !</p></div>
+            <div class="savoir">
+            <button name="En savoir plus">EN SAVOIR PLUS</button></div>
+        </div>
+        <!-- Bloc contact -->
+    <div class="contact"><h3>Contact</h3>
+        <form action="traitement.php" method="POST">
+            <fieldset class="formulaire">
+                <label for="Vos coordonnées"></label><input type="Nom" type="text" name="Nom/Prénom" placeholder="Nom / Prénom">
+                <input type="Adresse mail" type="text" name="Adresse mail" placeholder="Adresse mail">
+                <input type="Numéro" type="tel" name="Numéro de téléphone" placeholder="Numéro de téléphone">
+                <label for="Message"></label> <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Rédigez votre message"></textarea>
+                <div class="envoyer">
+                    <button name="Envoyer">ENVOYER</button></div>
+        </form>
+    </div>
+    </div></div>
+    
+     <footer> <!--Mis en place par Thomas L, image dans le html-->
+    <img src="ASSETS/Image/LogoSiteFleur.png" alt="Eufloria">
+        <!-- L'adresse -->
+        <div class="bloc1">
+            <div class="gras"><p>NOS ENTREPOTS</p></div>
+            <p>80 rue des Jacobins</p>
+            <p>80000 Amiens</p>
+        </div>
+        <!-- Les mentions légales -->
+        <div class="bloc2">
+            <p>MENTIONS LEGALES</p>
+            <p>POLITIQUE DE CONFIDENTIALITE</p>
+            <p>C.G.V</p>
+        </div>
+        <!-- Les icones -->
+            <div class="bloc3">
+            <p>NOUS SUIVRE</p>
+            <i class="logo1"><img src="ASSETS/Image/Facebook.png" alt="FB"></i>
+            <i class="logo2"><img src="ASSETS/Image/instagram.png" alt="Insta"></i>
+        </div>   
+    </footer>
+    </body>
+</html>

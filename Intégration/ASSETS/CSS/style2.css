@@ -1,0 +1,231 @@
+@media screen and (max-width: 480px)
+{
+#PotsDeFleurs>img{
+    display: none;
+}
+#Logo{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    height: 170px;
+    width: 190px;
+}
+#p{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    grid-area: text;
+    margin: auto;
+    margin-bottom: 130px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#MenuBurger{
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#block2{
+    background-color: #E38A56;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 220px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.P1_MaitresMots{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.MaitresMots{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: #CF7C4C 0px 3px 5px;
+    align-content: space-around;
+}
+#PotsDeFleurs>img{
+    width: 35%;
+    height: 100px;
+    top: 855px; right: 30px;
+    box-shadow: 0px 2px 15px #272727;
+}
+#block3{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 440px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    justify-items: center;
+    text-align: center;
+    row-gap: 30px;
+}
+#conteneur{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#ensemble {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1250px 830px 10px;
+}
+/* Bloc partenaire */
+.partenaires .texte{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.partenaires .titre{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: #707070 0px 2px 1px;
+}
+.savoir>button {
+    width: 50%;
+   height: 40px;
+   margin-top: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   background-color:#CF7C4C;
+   color: #FFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13.5px;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+   margin-left: 120px;
+}
+/* Bloc contact */
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: #E38A56;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5px;
+    justify-content: center;
+}
+.formulaire{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+}
+input{
+    display: block;
+    text-align : center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 75%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.envoyer>button{
+    width: 55%;
+   height: 40px;
+   margin-top: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   background-color:#272727;
+   color: #FFFF;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13.5px;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.envoyer > a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+    text-shadow: #CF7C4C 0px 3px 5px;
+    margin-bottom: 10px;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    background-color: #272727;
+    color: white;
+    height: 120px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > img{
+    display: none;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 70px;
+    width: 80px;
+}
+.bloc1{
+    font-size: 10px;
+    margin-top: 15px;
+    padding: 3px;
+    padding-top: 10px;
+}
+.bloc1>p{
+    margin: 0px;
+    padding: 0px;
+    width: ;
+}
+.gras{
+    font-weight: bold;
+}
+.bloc2{
+    font-size: 10px;
+    margin-top: 28px;
+    width: 100px;
+    font-weight: bold;
+}
+.bloc2>p{
+    padding: 0px;
+    margin: 5px;
+}
+.bloc3{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.bloc3>p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.logo1 >img{
+    width: 25px;
+    margin-left: 6px;
+}
+.logo2 >img{
+    width: 35px;
+}
